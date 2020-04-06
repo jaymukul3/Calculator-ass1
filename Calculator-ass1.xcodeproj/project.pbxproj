@@ -13,7 +13,6 @@
 		F567560B2437576E00DD8826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56756092437576E00DD8826 /* Main.storyboard */; };
 		F567560D2437576E00DD8826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F567560C2437576E00DD8826 /* Assets.xcassets */; };
 		F56756102437576E00DD8826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F567560E2437576E00DD8826 /* LaunchScreen.storyboard */; };
-		F567561B2437576E00DD8826 /* Calculator_ass1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F567561A2437576E00DD8826 /* Calculator_ass1Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +29,12 @@
 		F56756002437576E00DD8826 /* Calculator-ass1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator-ass1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56756032437576E00DD8826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F56756052437576E00DD8826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F56756072437576E00DD8826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F56756072437576E00DD8826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		F567560A2437576E00DD8826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F567560C2437576E00DD8826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F567560F2437576E00DD8826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F56756112437576E00DD8826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F56756162437576E00DD8826 /* Calculator-ass1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator-ass1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F567561A2437576E00DD8826 /* Calculator_ass1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_ass1Tests.swift; sourceTree = "<group>"; };
-		F567561C2437576E00DD8826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				F56756022437576E00DD8826 /* Calculator-ass1 */,
-				F56756192437576E00DD8826 /* Calculator-ass1Tests */,
 				F56756012437576E00DD8826 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,15 +84,6 @@
 				F56756112437576E00DD8826 /* Info.plist */,
 			);
 			path = "Calculator-ass1";
-			sourceTree = "<group>";
-		};
-		F56756192437576E00DD8826 /* Calculator-ass1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				F567561A2437576E00DD8826 /* Calculator_ass1Tests.swift */,
-				F567561C2437576E00DD8826 /* Info.plist */,
-			);
-			path = "Calculator-ass1Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F567561B2437576E00DD8826 /* Calculator_ass1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Calculator-ass1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Calculator-ass1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
