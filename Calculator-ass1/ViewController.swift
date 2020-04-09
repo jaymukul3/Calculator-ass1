@@ -81,7 +81,7 @@ class ViewController: UIViewController {
         }
         
         //pop last number to modify it
-        guard let numberString : String = numbersStringArray.removeLast() else {return}
+        let numberString : String = numbersStringArray.removeLast()
         if numberExist {
             numbersArray.removeLast()
         }
@@ -194,7 +194,7 @@ class ViewController: UIViewController {
         number.num /= 100
         
         //fix input text
-        guard var numberString : String = numbersStringArray.removeLast() else {return}
+        var numberString : String = numbersStringArray.removeLast()
         inputText = String(inputText.prefix(inputText.count - numberString.count))
         
         //find if it has "." but no 0!
